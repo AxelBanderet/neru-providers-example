@@ -1,0 +1,16 @@
+project:
+    name: neru-providers-example
+instance:
+    name: dev
+    runtime: nodejs16
+    region: aws.euw1
+    application-id: 35a428ff-b4fc-4a8e-ae63-6481540aabd6
+    entrypoint:
+        - node
+        - index.js
+debug:
+    name: debug
+    entrypoint:
+        - nodemon
+        - --inspect
+        - index.js
