@@ -1,10 +1,10 @@
 project:
-    name: neru-providers-example
+    name: $YOUR_PROJECT_NAME
 instance:
     name: dev
     runtime: nodejs16
     region: aws.euw1
-    application-id: 35a428ff-b4fc-4a8e-ae63-6481540aabd6
+    application-id: $YOUR_VONAGE_APPLICATION_ID
     entrypoint:
         - node
         - index.js
